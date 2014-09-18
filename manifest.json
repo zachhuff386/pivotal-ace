@@ -2,7 +2,7 @@
   "name": "Pivotal Ace",
   "short_name": "pivotal-ace",
   "description": "Integrate Ace editor into Pivotal Tracker",
-  "version": "0.2",
+  "version": "0.3",
   "manifest_version": 2,
   "homepage_url": "https://github.com/zachhuff386/pivotal-ace",
   "permissions": [

@@ -15,6 +15,7 @@ var patchTextarea = function() {
     minLines: 3,
     maxLines: Infinity
   });
+  editor.focus();
 
   editor.on('change', function() {
     textarea.val(editor.getSession().getValue());
