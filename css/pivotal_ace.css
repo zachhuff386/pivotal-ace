@@ -1,0 +1,18 @@
+textarea.editor.description.patched {
+  display: none !important;
+}
+
+.description .ace_editor {
+  display: none;
+}
+.description .editing .ace_editor {
+  display: block;
+}
+
+.description .ace_editor {
+  margin-bottom: 3px;
+  border-bottom: none;
+  border: 1px solid #adb0b7;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}

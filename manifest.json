@@ -1,0 +1,36 @@
+{
+  "name": "Pivotal Ace",
+  "short_name": "pivotal-ace",
+  "description": "Integrate Ace editor into Pivotal Tracker",
+  "version": "0.1",
+  "manifest_version": 2,
+  "homepage_url": "https://github.com/zachhuff386/pivotal-ace",
+  "permissions": [
+    "http://www.pivotaltracker.com/",
+    "https://www.pivotaltracker.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.pivotaltracker.com/*",
+        "https://www.pivotaltracker.com/*"
+      ],
+      "css": [
+        "css/pivotal_ace.css"
+      ],
+      "js": [
+        "js/jquery-2.1.1.min.js",
+        "js/jquery-ui-1.11.1.min.js",
+        "js/ace/ace.js",
+        "js/ace/mode-markdown.js",
+        "js/ace/theme-chrome.js",
+        "js/pivotal_ace.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "img/pivotal-ace16.png",
+    "48": "img/pivotal-ace48.png",
+    "128": "img/pivotal-ace128.png"
+  }
+}
