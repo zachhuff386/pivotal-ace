@@ -11,8 +11,8 @@ textarea.editor.description.patched {
 
 .description .ace_editor {
   margin-bottom: 3px;
-  border-bottom: none;
   border: 1px solid #adb0b7;
+  border-bottom: none;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
